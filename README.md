@@ -1,7 +1,7 @@
 # Hi, I'm Mithil (Aaron) Nagabathula 👋
 
 **Software engineer in London: backend, full-stack and cloud.**
-I build complete systems in Python, TypeScript and C#, and own them end to end: data model, API, UI, tests, CI and the infrastructure they run on in AWS and Azure.
+I build complete systems in Python, TypeScript, Go and C#, and own them end to end: data model, API, UI, tests, CI and the infrastructure they run on in AWS and Azure.
 
 MSc Cloud Computing (placement year) at the University of East London · Security Cloud Engineer at Impact Consulting · Open to software engineering and cloud roles.
 
@@ -12,6 +12,7 @@ MSc Cloud Computing (placement year) at the University of East London · Securit
 | Project | What it is | Stack |
 | --- | --- | --- |
 | [fintech-network](https://github.com/mithil2k2000-tech/fintech-network) | Full-stack payments platform: double-entry ledger, race-safe payments with row-level locking, risk engine, three React apps on one API. Deployed with Terraform to AWS ECS, plus a Helm chart and an incident drill. | TypeScript, React, Fastify, PostgreSQL, Playwright, Terraform |
+| [uk-payroll-engine](https://github.com/mithil2k2000-tech/uk-payroll-engine) | UK payroll engine and API built to HMRC's specification: PAYE, National Insurance, student loans and pensions. Matches HMRC's worked examples to the penny; [live demo](https://mithil2k2000-tech.github.io/uk-payroll-engine/) runs the engine as WebAssembly. | Go, REST API, WebAssembly, Docker |
 | [enterprise-knowledge-ai](https://github.com/mithil2k2000-tech/enterprise-knowledge-ai) | RAG API where access control runs before retrieval. 98 tests plus a 12-case evaluation suite. | Python, FastAPI, Qdrant, Claude API |
 | [confidential-ai-platform](https://github.com/mithil2k2000-tech/confidential-ai-platform) | Secure inference backend with RBAC, AES-256-GCM encryption and an append-only audit trail, plus a React console. 94 tests. | Python, FastAPI, React, TypeScript |
 | [azure-uptime-monitor](https://github.com/mithil2k2000-tech/azure-uptime-monitor) | Serverless uptime monitor and status API on managed identity, no storage keys. 15 xUnit tests against Azurite in CI. | C#, .NET 10, Azure Functions, Bicep |
@@ -21,8 +22,8 @@ MSc Cloud Computing (placement year) at the University of East London · Securit
 
 ## Toolkit
 
-**Languages:** Python · TypeScript · C# · SQL · Bash
+**Languages:** Python · TypeScript · Go · C# · SQL · Bash
 **Backend and frontend:** FastAPI · Fastify · Azure Functions · React · Vite · PostgreSQL
-**Testing:** pytest · xUnit · Vitest · Playwright · moto · Azurite
+**Testing:** Go test · pytest · xUnit · Vitest · Playwright · moto · Azurite
 **Cloud and DevOps:** AWS · Azure · Terraform · Bicep · Docker · Kubernetes · Helm · Prometheus · Grafana · GitHub Actions (OIDC)
 **AI:** Claude API · RAG · Claude Code · GitHub Copilot
