@@ -12,6 +12,7 @@ MSc Cloud Computing (placement year) at the University of East London · Securit
 | Project | What it is | Stack |
 | --- | --- | --- |
 | [fintech-network](https://github.com/mithil2k2000-tech/fintech-network) | Full-stack payments platform: double-entry ledger, race-safe payments with row-level locking, risk engine, three React apps on one API. Deployed with Terraform to AWS ECS, plus a Helm chart and an incident drill. | TypeScript, React, Fastify, PostgreSQL, Playwright, Terraform |
+| [cx-analytics-platform](https://github.com/mithil2k2000-tech/cx-analytics-platform) | Governed contact-centre analytics: data contracts with quarantine, dbt star schema on DuckDB, semantic metrics layer, [CXO dashboard](https://mithil2k2000-tech.github.io/cx-analytics-platform/) and an AI analyst that can't invent numbers. | Python, dbt, DuckDB, SQL, Claude API |
 | [uk-payroll-engine](https://github.com/mithil2k2000-tech/uk-payroll-engine) | UK payroll engine and API built to HMRC's specification: PAYE, National Insurance, student loans and pensions. Matches HMRC's worked examples to the penny; [live demo](https://mithil2k2000-tech.github.io/uk-payroll-engine/) runs the engine as WebAssembly. | Go, REST API, WebAssembly, Docker |
 | [enterprise-knowledge-ai](https://github.com/mithil2k2000-tech/enterprise-knowledge-ai) | RAG API where access control runs before retrieval. 98 tests plus a 12-case evaluation suite. | Python, FastAPI, Qdrant, Claude API |
 | [confidential-ai-platform](https://github.com/mithil2k2000-tech/confidential-ai-platform) | Secure inference backend with RBAC, AES-256-GCM encryption and an append-only audit trail, plus a React console. 94 tests. | Python, FastAPI, React, TypeScript |
@@ -26,4 +27,5 @@ MSc Cloud Computing (placement year) at the University of East London · Securit
 **Backend and frontend:** FastAPI · Fastify · Azure Functions · React · Vite · PostgreSQL
 **Testing:** Go test · pytest · xUnit · Vitest · Playwright · moto · Azurite
 **Cloud and DevOps:** AWS · Azure · Terraform · Bicep · Docker · Kubernetes · Helm · Prometheus · Grafana · GitHub Actions (OIDC)
+**Data:** dbt · DuckDB · PostgreSQL · dimensional modelling · data contracts
 **AI:** Claude API · RAG · Claude Code · GitHub Copilot
