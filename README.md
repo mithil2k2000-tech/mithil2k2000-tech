@@ -7,6 +7,22 @@ MSc Cloud Computing (placement year) at the University of East London · Securit
 
 🌐 [Portfolio](https://mithil2k2000-tech.github.io/portfolio/) · 💼 [LinkedIn](https://www.linkedin.com/in/mithilaaron/)
 
+## Research (preprints, not yet peer reviewed)
+
+Each repository holds the paper PDF, code, data and results. DOIs and arXiv links will be added when issued.
+
+| Paper | Question and main result |
+|---|---|
+| [Does an Explanation Stability Score notice data drift?](https://github.com/mithil2k2000-tech/ess-drift-study) | Tests my MSc dissertation's explanation-reliability score: it reproduced (0.881) but never fired across 225 drifted batches; it does detect unreliable models. |
+| [Does attack-path awareness help prioritise cloud security findings?](https://github.com/mithil2k2000-tech/attack-path-prioritisation) | 600 synthetic architectures: rule severity beat attack-path ranking; a misspecified probabilistic model came within 0.02 of optimal. |
+| [Where should a RAG system enforce access control?](https://github.com/mithil2k2000-tech/rag-access-control-study) | Post-filtering cut recall from 0.61 to 0.37; shared BM25 statistics leaked hidden-document counts exactly; permission-blind caches leaked in ~90% of hits. |
+| [Same setting, different verdict](https://github.com/mithil2k2000-tech/iac-scanner-idioms) | 312-case Terraform mutation corpus: scanner verdicts change with how a value is written. |
+| [A one-way ratchet: AWS managed IAM policies 2019–2026](https://github.com/mithil2k2000-tech/aws-managed-policy-drift) | 91% of substantive changes to AWS managed policies only add permissions. |
+| [What does hybrid post-quantum key exchange cost a microservice?](https://github.com/mithil2k2000-tech/pq-tls-microservices) | X25519MLKEM768 in Go: +2.3 kB and about +50% handshake CPU with ECDSA certificates, no extra round trip. |
+| [A radiograph foundation model did not transfer better than a generic one](https://github.com/mithil2k2000-tech/kneescope-backbone-gate) | Pre-registered knee-OA backbone test: DINOv2 beat RAD-DINO and ImageNet. |
+| [From 1.00 to 0.77: dementia prediction on OASIS](https://github.com/mithil2k2000-tech/oasis-leakage) | How target leakage, participant leakage and a cognitive test inflate reported accuracy. |
+| [Pennies and pounds: UK payroll shortcuts](https://github.com/mithil2k2000-tech/payroll-shortcuts) | Differential testing against HMRC's exact method over 2 million payslips. |
+
 ## Featured projects
 
 | Project | What it is | Stack |
