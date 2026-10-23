@@ -9,21 +9,21 @@ MSc Cloud Computing (placement year) at the University of East London · Securit
 
 ## Research (preprints, not yet peer reviewed)
 
-Each repository holds the paper PDF, code, data and results. DOIs and arXiv links will be added when issued.
+Each repository holds the paper PDF, code, data and results. Each has a Zenodo DOI; arXiv links will be added when issued.
 
 | Paper | Question and main result |
 |---|---|
-| [Does an Explanation Stability Score notice data drift?](https://github.com/mithil2k2000-tech/ess-drift-study) | Tests my MSc dissertation's explanation-reliability score: it reproduced (0.881) but never fired across 225 drifted batches; it does detect unreliable models. |
-| [Does attack-path awareness help prioritise cloud security findings?](https://github.com/mithil2k2000-tech/attack-path-prioritisation) | 600 synthetic architectures: rule severity beat attack-path ranking; a misspecified probabilistic model came within 0.02 of optimal. |
-| [Where should a RAG system enforce access control?](https://github.com/mithil2k2000-tech/rag-access-control-study) | Post-filtering cut recall from 0.61 to 0.37; shared BM25 statistics leaked hidden-document counts exactly; permission-blind caches leaked in ~90% of hits. |
-| [Same setting, different verdict](https://github.com/mithil2k2000-tech/iac-scanner-idioms) | 312-case Terraform mutation corpus: scanner verdicts change with how a value is written. |
-| [A one-way ratchet: AWS managed IAM policies 2019–2026](https://github.com/mithil2k2000-tech/aws-managed-policy-drift) | 91% of substantive changes to AWS managed policies only add permissions. |
-| [What does hybrid post-quantum key exchange cost a microservice?](https://github.com/mithil2k2000-tech/pq-tls-microservices) | X25519MLKEM768 in Go: +2.3 kB and about +50% handshake CPU with ECDSA certificates, no extra round trip. |
-| [Smoothness, not quantumness](https://github.com/mithil2k2000-tech/qml-adversarial-robustness) | Small quantum classifiers vs size-matched classical models under attack: the plain circuit was most robust (+7.6 points), the same circuit with data re-uploading least robust; robustness followed gradient size. |
-| [Cheap prompt-injection detectors do not travel](https://github.com/mithil2k2000-tech/prompt-injection-detectors) | Rebuff and Vigil as shipped caught at most 13% of attacks on three of four public datasets; n-gram classifiers fell from AUC 0.85–1.00 in-dataset to a median 0.65 on other datasets and near zero under padding, leetspeak or base64. |
-| [A radiograph foundation model did not transfer better than a generic one](https://github.com/mithil2k2000-tech/kneescope-backbone-gate) | Pre-registered knee-OA backbone test: DINOv2 beat RAD-DINO and ImageNet. |
-| [From 1.00 to 0.77: dementia prediction on OASIS](https://github.com/mithil2k2000-tech/oasis-leakage) | How target leakage, participant leakage and a cognitive test inflate reported accuracy. |
-| [Pennies and pounds: UK payroll shortcuts](https://github.com/mithil2k2000-tech/payroll-shortcuts) | Differential testing against HMRC's exact method over 2 million payslips. |
+| [Does an Explanation Stability Score notice data drift?](https://github.com/mithil2k2000-tech/ess-drift-study) · [DOI](https://doi.org/10.5281/zenodo.23592998) | Tests my MSc dissertation's explanation-reliability score: it reproduced (0.881) but never fired across 225 drifted batches; it does detect unreliable models. |
+| [Does attack-path awareness help prioritise cloud security findings?](https://github.com/mithil2k2000-tech/attack-path-prioritisation) · [DOI](https://doi.org/10.5281/zenodo.23593004) | 600 synthetic architectures: rule severity beat attack-path ranking; a misspecified probabilistic model came within 0.02 of optimal. |
+| [Where should a RAG system enforce access control?](https://github.com/mithil2k2000-tech/rag-access-control-study) · [DOI](https://doi.org/10.5281/zenodo.23593008) | Post-filtering cut recall from 0.61 to 0.37; shared BM25 statistics leaked hidden-document counts exactly; permission-blind caches leaked in ~90% of hits. |
+| [Same setting, different verdict](https://github.com/mithil2k2000-tech/iac-scanner-idioms) · [DOI](https://doi.org/10.5281/zenodo.23592992) | 312-case Terraform mutation corpus: scanner verdicts change with how a value is written. |
+| [A one-way ratchet: AWS managed IAM policies 2019–2026](https://github.com/mithil2k2000-tech/aws-managed-policy-drift) · [DOI](https://doi.org/10.5281/zenodo.23593032) | 91% of substantive changes to AWS managed policies only add permissions. |
+| [What does hybrid post-quantum key exchange cost a microservice?](https://github.com/mithil2k2000-tech/pq-tls-microservices) · [DOI](https://doi.org/10.5281/zenodo.23593044) | X25519MLKEM768 in Go: +2.3 kB and about +50% handshake CPU with ECDSA certificates, no extra round trip. |
+| [Smoothness, not quantumness](https://github.com/mithil2k2000-tech/qml-adversarial-robustness) · [DOI](https://doi.org/10.5281/zenodo.23593052) | Small quantum classifiers vs size-matched classical models under attack: the plain circuit was most robust (+7.6 points), the same circuit with data re-uploading least robust; robustness followed gradient size. |
+| [Cheap prompt-injection detectors do not travel](https://github.com/mithil2k2000-tech/prompt-injection-detectors) · [DOI](https://doi.org/10.5281/zenodo.23593064) | Rebuff and Vigil as shipped caught at most 13% of attacks on three of four public datasets; n-gram classifiers fell from AUC 0.85–1.00 in-dataset to a median 0.65 on other datasets and near zero under padding, leetspeak or base64. |
+| [A radiograph foundation model did not transfer better than a generic one](https://github.com/mithil2k2000-tech/kneescope-backbone-gate) · [DOI](https://doi.org/10.5281/zenodo.23593016) | Pre-registered knee-OA backbone test: DINOv2 beat RAD-DINO and ImageNet. |
+| [From 1.00 to 0.77: dementia prediction on OASIS](https://github.com/mithil2k2000-tech/oasis-leakage) · [DOI](https://doi.org/10.5281/zenodo.23593046) | How target leakage, participant leakage and a cognitive test inflate reported accuracy. |
+| [Pennies and pounds: UK payroll shortcuts](https://github.com/mithil2k2000-tech/payroll-shortcuts) · [DOI](https://doi.org/10.5281/zenodo.23593024) | Differential testing against HMRC's exact method over 2 million payslips. |
 
 ## Featured projects
 
