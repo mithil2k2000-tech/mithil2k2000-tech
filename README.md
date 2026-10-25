@@ -25,6 +25,8 @@ Each repository holds the paper PDF, code, data and results. Each has a Zenodo D
 | [From 1.00 to 0.77: dementia prediction on OASIS](https://github.com/mithil2k2000-tech/oasis-leakage) · [DOI](https://doi.org/10.5281/zenodo.23593046) | How target leakage, participant leakage and a cognitive test inflate reported accuracy. |
 | [Pennies and pounds: UK payroll shortcuts](https://github.com/mithil2k2000-tech/payroll-shortcuts) · [DOI](https://doi.org/10.5281/zenodo.23593024) | Differential testing against HMRC's exact method over 2 million payslips. |
 
+**Undergraduate publication.** G. Anil Kumar, I. Hemanth Sai Kiran, M. Dharma Teja, N. Mithil. [Facial Authentication System](https://doi.org/10.48047/INTJECSE/V15I4.70). *INT-JECSE* 15(4), 2023.
+
 ## Featured projects
 
 | Project | What it is | Stack |
